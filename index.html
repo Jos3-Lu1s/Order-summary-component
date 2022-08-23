@@ -10,22 +10,27 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Frontend Mentor | Order summary card</title>
 </head>
-<body class="container" style="background-image: url('images/pattern-background-desktop.svg');">
+
+<body class="container">
   <div class="row vh-100 align-items-center">
-    <div class="col-md-4 mx-auto">
-      <div class="card border-0 card-rounded rounded-4 shadow">
+    <div class="col-sm-12 col-md-7 col-lg-5 col-xl-4 mx-auto">
+      <div class="card border-0 card-rounded rounded-5 shadow">
         <img src="images/illustration-hero.svg" class="card-img-top img-rounded" alt="...">
         <div class="card-body p-4">
-          <h5 class="card-title text-center">Order Summary</h5>
-          <p class="card-text text-center">You can now listen to millions of songs, audiobooks, and podcasts on any
+          <h4 class="card-title text-center mt-3">Order Summary</h4>
+          <p class="card-text text-center text-muted px-1 mt-3">You can now listen to millions of songs, audiobooks, and
+            podcasts on any
             device anywhere you like!</p>
-          <div class="p-3 bg-light rounded-3 d-flex justify-content-between align-items-center">
-            <img src="images/icon-music.svg" alt="mdo" width="50" class="rounded-circle me-3">
-            <p class="m-0 flex-fill"><span class="fw-bold">Annual Plan</span><br><span class="text-muted">$59.99/year</span></p>
-            <a class="m-0 fw-bold btn-change">Change</a>
+          <div class="px-2">
+            <div class="p-3 bg-blue rounded-3 d-flex justify-content-between align-items-center">
+              <img src="images/icon-music.svg" alt="mdo" width="50" class="rounded-circle me-3">
+              <p class="m-0 flex-fill"><span class="plan">Annual Plan</span><br><span
+                  class="text-muted">$59.99/year</span></p>
+              <a class="m-0 fw-bold btn-change">Change</a>
+            </div>
+            <input class="btn btn-violet mt-4 container-fluid" type="button" value="Proceed to Payment">
+            <input class="btn mt-3 container-fluid border-0 fw-bold btn-cancel" type="button" value="Cancel Order">
           </div>
-          <input class="btn btn-violet mt-3 container-fluid" type="button" value="Proceed to Payment">
-          <input class="btn mt-3 container-fluid border-0 fw-bold btn-cancel" type="button" value="Cancel Order">
         </div>
       </div>
     </div>
