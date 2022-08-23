@@ -7,10 +7,49 @@
     color: hsl(228, 45%, 44%);
 }
 
-.img-rounded{
+.container{
+    background-color: hsl(225, 100%, 98%);
+}
+
+.img-rounded {
     border-radius: 20px 20px 0px 0px;
 }
 
-.card-rounded{
+.card-rounded {
     border-radius: 0px 0px 20px 20px;
+}
+
+.btn-change {
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+    border-bottom: 2px solid transparent;
+    transition: all ease-in-out 1s;
+}
+
+.btn-change:hover {
+    color: hsl(245, 75%, 52%);
+    border-color: hsl(245, 75%, 52%);
+}
+
+.btn-cancel {
+    color: hsl(224, 23%, 55%);
+}
+
+.btn-cancel:hover {
+    color: hsl(223, 47%, 23%);
+    transition: color 0.4s;
+}
+
+.btn-violet {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-weight: 500;
+    height: 40px;
+}
+
+.btn-violet:hover {
+    background-color: hsla(245, 75%, 52%, 0.589);
+    color: hsl(225, 100%, 98%);
+    transition: background-color 0.4s;
+    border: none;
 }
