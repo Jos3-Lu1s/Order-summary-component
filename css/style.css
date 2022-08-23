@@ -6,3 +6,11 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+.img-rounded{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-rounded{
+    border-radius: 0px 0px 20px 20px;
+}
